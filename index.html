@@ -189,6 +189,13 @@
   .metric{border-left:3px solid var(--coral);padding-left:16px}
   .metric .big{font-size:18px;font-weight:800}
   .metric .small{font-size:13.5px;color:var(--powder);margin-top:2px}
+  .foundry-card{margin-top:24px;padding:20px;border-radius:12px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.14)}
+  .foundry-card .cap{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--powder);margin-bottom:8px}
+  .foundry-card h4{font-size:18px;color:var(--white);margin-bottom:8px}
+  .foundry-card p{margin-bottom:14px}
+  .foundry-list{list-style:none;display:flex;flex-direction:column;gap:9px}
+  .foundry-list li{position:relative;padding-left:18px;color:var(--powder);font-size:13.8px}
+  .foundry-list li::before{content:"";position:absolute;left:0;top:8px;width:8px;height:8px;border-radius:50%;background:var(--coral)}
   @media(max-width:860px){.case-grid{grid-template-columns:1fr}}
 
   /* AI Compass math readiness */
@@ -698,6 +705,17 @@
         <div class="metric"><div class="big">AI business simulations</div><div class="small">Decision and case-work simulations for business schools, executive education, and consulting academies.</div></div>
         <div class="metric"><div class="big">Role-play scenarios</div><div class="small">AI-driven personas for advising, sales, communication, and leadership practice — consistent at any scale.</div></div>
         <div class="metric"><div class="big">Virtual patient encounters</div><div class="small">Clinical reasoning and patient-interaction practice for healthcare programs.</div></div>
+      </div>
+      <div class="foundry-card">
+        <div class="cap">Where this can go next</div>
+        <h4>From one simulation to a campus AI app workflow</h4>
+        <p>What starts as a simulation can move onto a governed path for broader campus AI apps.</p>
+        <ul class="foundry-list">
+          <li>Attach approved course or policy knowledge with citation tracking.</li>
+          <li>Run education-specific evals before rollout.</li>
+          <li>Publish into Canvas, the portal, or a staff workflow.</li>
+          <li>Reuse the pattern for course companions, feedback flows, or student services bots.</li>
+        </ul>
       </div>
       <div style="margin-top:24px"><a class="link" style="color:var(--coral)" href="https://www.vocareum.com/custom-virtual-labs/">Explore Custom Virtual Labs →</a></div>
     </div>
